@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { SidePar } from '../../Components/SidePar/SidePar';
 import { Input } from '@material-tailwind/react';
 import axios from 'axios';
-import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 import TransactionGraph from '../../Components/TransactionGraph/TransactionGraph';
-import { Fade, Slide } from 'react-awesome-reveal';
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+import {  Slide } from 'react-awesome-reveal';
+
 
 export default function Home() {
     const [customerData, setCustomerData] = useState([]);
@@ -17,7 +15,7 @@ export default function Home() {
     async function getData(path, setState) {
         try {
             const options = {
-                url: `http://route-task-w5cm/${path}`,
+                url: `http://localhost:5001/${path}`,
 
                 method: "GET",
             }

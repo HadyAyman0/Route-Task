@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS,  Title,  } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 import {  Slide } from 'react-awesome-reveal';
-ChartJS.register( Title,);
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 const TransactionGraph = ({ transactions, selectedCustomer }) => {
     useEffect(() => {
     }, [transactions, selectedCustomer]);

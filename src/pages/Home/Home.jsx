@@ -64,9 +64,9 @@ export default function Home() {
                     <div className='min-h-screen col-span-12 md:col-span-8 lg:col-span-9 bg-[#EEEDEB]'>
                         <div className="container grid grid-cols-12">
                             <div className='col-span-12 p-5'>
-                            {selectedCustomer && (
+                            {selectedCustomer ? selectedCustomer && (
                                     <TransactionGraph transactions={filteredTransactions} selectedCustomer={selectedCustomer} />
-                                )}
+                                ) : <><h1 className='text-center text-2xl font-body'>"Please Click in any user to git the grpah"</h1></>}
                             </div>
                           
                             <div className='col-span-12 p-5'>

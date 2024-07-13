@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-import { Fade, Slide } from 'react-awesome-reveal';
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+import { Chart as ChartJS,  Title,  } from 'chart.js';
+import {  Slide } from 'react-awesome-reveal';
+ChartJS.register( Title,);
 const TransactionGraph = ({ transactions, selectedCustomer }) => {
     useEffect(() => {
     }, [transactions, selectedCustomer]);
@@ -27,9 +27,6 @@ const TransactionGraph = ({ transactions, selectedCustomer }) => {
     const options = {
         responsive: true,
         plugins: {
-            legend: {
-                position: 'top',
-            },
             title: {
                 display: true,
                 text: `Total Transaction Amount per Day for ${selectedCustomer.name}`,

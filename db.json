@@ -1,0 +1,85 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "Ahmed Ali",
+            "picture": "https://t3.ftcdn.net/jpg/01/97/11/64/360_F_197116416_hpfTtXSoJMvMqU99n6hGP4xX0ejYa4M7.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Aya Elsayed",
+            "picture": "https://i.pinimg.com/280x280_RS/22/ce/ac/22ceac23b9630c46c5bd29641c6cda92.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Mina Adel",
+            "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+        },
+        {
+            "id": 4,
+            "name": "Sarah Reda",
+            "picture": "https://media.istockphoto.com/id/1196391449/photo/portrait-of-african-woman.webp?b=1&s=170667a&w=0&k=20&c=cZxhkMwXqOaI1w2Wpq5XC53Jgni5LFIMVhDSDkhvMhA="
+        },
+        {
+            "id": 5,
+            "name": "Mohamed Sayed",
+            "picture": "https://media.istockphoto.com/id/1007763808/photo/portrait-of-handsome-latino-african-man.webp?b=1&s=170667a&w=0&k=20&c=rjQLg0o4DbKOefuHFclQynjQgYCPyGQi91GQ4Dk_yGM="
+        }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "customer_id": 1,
+            "date": "2022-01-01",
+            "amount": 1000
+        },
+        {
+            "id": 2,
+            "customer_id": 1,
+            "date": "2022-01-02",
+            "amount": 2000
+        },
+        {
+            "id": 3,
+            "customer_id": 2,
+            "date": "2022-01-01",
+            "amount": 550
+        },
+        {
+            "id": 4,
+            "customer_id": 3,
+            "date": "2022-01-01",
+            "amount": 500
+        },
+        {
+            "id": 5,
+            "customer_id": 2,
+            "date": "2022-01-02",
+            "amount": 1300
+        },
+        {
+            "id": 6,
+            "customer_id": 4,
+            "date": "2022-01-01",
+            "amount": 750
+        },
+        {
+            "id": 7,
+            "customer_id": 3,
+            "date": "2022-01-02",
+            "amount": 1250
+        },
+        {
+            "id": 8,
+            "customer_id": 5,
+            "date": "2022-01-01",
+            "amount": 2500
+        },
+        {
+            "id": 9,
+            "customer_id": 5,
+            "date": "2022-01-02",
+            "amount": 875
+        }
+    ]
+}

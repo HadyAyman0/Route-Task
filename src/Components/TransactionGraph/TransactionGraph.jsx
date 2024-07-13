@@ -37,7 +37,7 @@ const TransactionGraph = ({ transactions, selectedCustomer }) => {
         },
     };
 
-    return  <Slide direction='right'><Line data={data} options={options} /></Slide>;
+    return  <Slide direction='down'><Line data={data} options={options} /></Slide>;
 };
 
 export default TransactionGraph;

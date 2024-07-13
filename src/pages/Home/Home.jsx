@@ -17,7 +17,7 @@ export default function Home() {
     async function getData(path, setState) {
         try {
             const options = {
-                url: `http://route-task-w2cm/${path}`,
+                url: `http://route-task-w5cm/${path}`,
 
                 method: "GET",
             }
